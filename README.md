@@ -25,13 +25,15 @@ This project implements a simple file encryption and decryption mechanism using 
 2. Compile the source code:
     ```bash
     g++ -o main.cpp
+    You Get Menu Bar 1)encrypt
+                     2)decrypt
     ```
 
 ## Usage
 
 1. To encrypt a file:
     ```bash
-    
+    Select Encrypt Option
     ```
     - `input.txt`: The file you want to encrypt.
     - `encrypted.txt`: The output file where the encrypted content will be saved.
@@ -39,14 +41,8 @@ This project implements a simple file encryption and decryption mechanism using 
 
 2. To decrypt a file:
     ```bash
-    ./file-encryption-decryption decrypt encrypted.txt decrypted.txt shift_value
+    Select Decrypt Option
     ```
     - `encrypted.txt`: The file you want to decrypt.
     - `decrypted.txt`: The output file where the decrypted content will be saved.
     - `shift_value`: The integer value by which the characters in the file were originally shifted.
-
-## Example
-
-To encrypt a file `example.txt` with a shift value of 3:
-```bash
-./file-encryption-decryption encrypt example.txt encrypted_example.txt 3
