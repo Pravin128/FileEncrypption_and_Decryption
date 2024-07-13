@@ -24,14 +24,14 @@ This project implements a simple file encryption and decryption mechanism using 
 
 2. Compile the source code:
     ```bash
-    g++ -o file-encryption-decryption main.cpp
+    g++ -o main.cpp
     ```
 
 ## Usage
 
 1. To encrypt a file:
     ```bash
-    ./file-encryption-decryption encrypt input.txt encrypted.txt shift_value
+    
     ```
     - `input.txt`: The file you want to encrypt.
     - `encrypted.txt`: The output file where the encrypted content will be saved.
